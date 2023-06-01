@@ -24,8 +24,8 @@ Feel free to explore the code and contribute to the development of STranslated. 
 Usage
 ------------------
 
-1. Install the necessary dependencies by running `npm install`.
-2. Start the application by running `npm start`.
+1. update the necessary dependencies by running `npm update`.
+2. Start the application by running `npm run dev`.
 3. Access the application through the provided URL in your web browser.
 4. Enter the text or word you wish to translate and select the desired language.
 5. The translated result will be displayed on the screen.
