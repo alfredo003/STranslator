@@ -50,6 +50,6 @@ STranslated is released under the [MIT License](link-to-your-license-file). Plea
 Contact
 ------------------
 
-If you have any questions or suggestions regarding STranslated, please contact us at [email address]. We appreciate your feedback and support.
+If you have any questions or suggestions regarding STranslated, please contact us at Email:Alfredomanuel127.0@gmail.com,We appreciate your feedback and support.
 
 mbora codar!
