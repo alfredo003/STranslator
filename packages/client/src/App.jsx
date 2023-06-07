@@ -1,19 +1,8 @@
 import TextArea from "./components/TextArea";
 import Header from "./components/Header";
-import AreaText from "./components/AreaText";
+
 
 export default function App() {
-  fetch("http://localhost:3000/",{
-    method:'GET',
-    headers:{
-      'Content-Type':'application/json',
-    }
-  })
-  .then((resp)=>resp.json())
-  .then((data)=>{
-     
-  })
-  .catch((err)=>console.log(err));
   return (
     <>
   
@@ -22,7 +11,7 @@ export default function App() {
    <Header/>
    
     <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-    <AreaText resp="Hello world" display=""/>
+    
 
      <TextArea/>
     </div>
