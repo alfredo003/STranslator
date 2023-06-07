@@ -22,9 +22,9 @@ export default function App() {
    <Header/>
    
     <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
-    <AreaText resp="Hello world"/>
+    <AreaText resp="Hello world" display=""/>
+
      <TextArea/>
-    
     </div>
   </div>
     </>
