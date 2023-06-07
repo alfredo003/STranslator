@@ -1,18 +1,15 @@
 import AreaText from "./AreaText";
 import { useState } from "react";
 export default function TextArea(){
-  var resp = '';
-  const [newText,setText,setResp] = useState("");
+
+  const [newText,setText] = useState(""); 
+  const [setResp] = useState(newText);
   function sendText(){ 
     if(!newText) return
-     setResp(newText)
-    
- 
-    
   }
   return(
    <>
-   <AreaText resp={(e)=>{setResp()}} display=""/>
+   <AreaText resp={setResp} display=""/>
 
     <form className="space-y-6" method="POST">
         <div>    
