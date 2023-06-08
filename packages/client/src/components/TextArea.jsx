@@ -8,7 +8,7 @@ export default function TextArea(){
 
   const [textValue,setText] = useState(""); 
   const [d,setD] = useState("none");
-  const [re,setResp] = useState("");
+  const [re,setRes] = useState("");
   const onSubmit = (e)=>{
     e.preventDefault();
 
@@ -27,9 +27,10 @@ export default function TextArea(){
       })
       .then((resp)=>resp.json())
       .then((data)=>{
-        setResp({data});
+        setRes(data.Response.transaction);
       }).catch((err)=> console.log(err)) 
-      setD(" ")
+      setD(" ") 
+      
   }
 
   return(
