@@ -15,7 +15,7 @@ export default function TextArea(){
     if(!textValue)return
       const data ={ 
         text:textValue,
-        language:"Portugues"
+        languange:"Portugues"
       };
 
       fetch('http://localhost:3000/translator',{
