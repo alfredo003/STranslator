@@ -6,7 +6,7 @@ const translator = ((req,res)=>{
   const {languange,text} = req.body;
 
   const openai = new OpenAIApi(new Configuration({
-    apiKey:process.env.API_KEY
+    apiKey:"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"
   }))
   
   openai.createChatCompletion({
