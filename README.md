@@ -5,7 +5,7 @@ STranslated is an intelligent text translator that can translate text or words i
 
 How it works
 ------------------
-<img src="https://github.com/alfredo003/STranslator/blob/main/screen/translate.png" with="200"/>
+<img src="https://github.com/alfredo003/STranslator/blob/main/screen/translate.png" with="100"/>
 STranslated leverages the ChatGPT API to identify the language of the text input provided by the user and retrieve the translation in the chosen language.
 
 Here's a breakdown of the translation process:
