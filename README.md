@@ -5,7 +5,7 @@ STranslated is an intelligent text translator that can translate text or words i
 
 How it works
 ------------------
-<img src="https://github.com/alfredo003/STranslator/blob/main/Diagrama%20em%20branco.png"/>
+<img src="https://github.com/alfredo003/STranslator/blob/main/screen/translate.png"/>
 STranslated leverages the ChatGPT API to identify the language of the text input provided by the user and retrieve the translation in the chosen language.
 
 Here's a breakdown of the translation process:
@@ -20,6 +20,10 @@ For example, if the user enters the word "hello" and requests the translation in
 To utilize STranslated, you need to have Node.js and React.js installed. The application's front-end is built using React.js, while Node.js handles the backend logic and integration with the ChatGPT API.
 
 Feel free to explore the code and contribute to the development of STranslated. We welcome any feedback and contributions to enhance the translation capabilities.
+
+Screen
+------------------
+<img src="https://github.com/alfredo003/STranslator/blob/main/screen/1.png"/>
 
 Usage
 ------------------
